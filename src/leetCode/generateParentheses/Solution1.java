@@ -3,7 +3,7 @@ package leetCode.generateParentheses;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution1 {
+class Solution1 {
     public List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();
         generate(res, "", 0, 0, n);

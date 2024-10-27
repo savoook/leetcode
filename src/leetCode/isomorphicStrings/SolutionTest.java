@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class SolutionTest {
+class SolutionTest {
 
     @Test
     public void isIsomorphicTest() {

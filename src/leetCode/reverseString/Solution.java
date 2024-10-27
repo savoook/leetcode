@@ -1,6 +1,6 @@
 package leetCode.reverseString;
 
-public class Solution {
+class Solution {
     public void reverseString(char[] s) {
         int lo = 0;
         int hi = s.length - 1;

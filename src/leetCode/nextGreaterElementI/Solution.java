@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-public class Solution {
+class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Stack<Integer> stack = new Stack<>();
         Map<Integer, Integer> map = new HashMap<>();

@@ -1,6 +1,6 @@
 package leetCode.countAndSay;
 
-public class Solution {
+class Solution {
     public String countAndSay(int n) {
         return "";
     }

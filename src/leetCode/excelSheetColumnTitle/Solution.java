@@ -1,6 +1,6 @@
 package leetCode.excelSheetColumnTitle;
 
-public class Solution {
+class Solution {
     public String convertToTitle(int columnNumber) {
         StringBuilder builder = new StringBuilder();
         while (columnNumber > 0) {

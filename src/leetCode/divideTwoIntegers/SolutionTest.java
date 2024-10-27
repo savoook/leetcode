@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class SolutionTest {
+class SolutionTest {
 
     @Test
     public void divideTest() {

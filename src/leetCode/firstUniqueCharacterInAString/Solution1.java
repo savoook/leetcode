@@ -1,7 +1,7 @@
 package leetCode.firstUniqueCharacterInAString;
 
 //ssabb
-public class Solution1 {
+class Solution1 {
     public int firstUniqChar(String s) {
         int[][] count = new int[26][2];
         char[] chars = s.toCharArray();

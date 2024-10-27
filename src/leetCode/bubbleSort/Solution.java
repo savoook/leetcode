@@ -1,6 +1,6 @@
 package leetCode.bubbleSort;
 
-public class Solution {
+class Solution {
     public void bubbleSort(int[] numArray) {
         int n = numArray.length;
         int temp = 0;

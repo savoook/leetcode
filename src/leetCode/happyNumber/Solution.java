@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 //19
-public class Solution {
+class Solution {
     public boolean isHappy(int n) {
         if (n < 1) return false;
         int num = n;

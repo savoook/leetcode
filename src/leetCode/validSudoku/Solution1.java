@@ -1,6 +1,6 @@
 package leetCode.validSudoku;
 
-public class Solution1 {
+class Solution1 {
     public boolean isValidSudoku(char[][] board) {
         if (board.length == 0 || board == null) return false;
 

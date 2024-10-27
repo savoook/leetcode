@@ -2,7 +2,7 @@ package leetCode.majorityElementII;
 
 import java.util.*;
 
-public class Solution {
+class Solution {
     public List<Integer> majorityElement(int[] nums) {
         if (nums.length == 1) return Collections.singletonList(nums[0]);
         Map<Integer, Integer> map = new HashMap<>();

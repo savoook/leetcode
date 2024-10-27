@@ -1,6 +1,6 @@
 package testTasks.array;
 
-public class Solution {
+class Solution {
     public void move(int[] array, int m) {
         if (m >= array.length || m == 0 || array.length == 0) return;
         int counter = 0;

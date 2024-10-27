@@ -3,7 +3,7 @@ package leetCode.intersectionOfTwoArrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Solution {
+class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         if (nums2.length < nums1.length) intersection(nums2, nums1);
         Set<Integer> num = new HashSet<>();

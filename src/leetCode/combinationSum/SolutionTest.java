@@ -7,7 +7,7 @@ import java.util.Collections;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
 
     @Test
     public void combinationSumTest() {

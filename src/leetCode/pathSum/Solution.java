@@ -2,7 +2,7 @@ package leetCode.pathSum;
 
 import leetCode.elements.TreeNode;
 
-public class Solution {
+class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) return false;
         targetSum -= root.val;

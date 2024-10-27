@@ -3,7 +3,7 @@ package leetCode.pascalsTriangle;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> triangle = new ArrayList<>();
         if (numRows == 0) return triangle;

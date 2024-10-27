@@ -1,7 +1,7 @@
 package leetCode.climbingStairs;
 
 //9 2+2+2+2+1 2+2+2+1+1+1 2+2+1+1+1+1+1 2+1+1+1+1+1+1+1 1+1+1+1+1+1+1+1+1
-public class Solution {
+class Solution {
     public int climbStairs(int n) {
         int[] steps = new int[n + 1];
         steps[0] = 1;

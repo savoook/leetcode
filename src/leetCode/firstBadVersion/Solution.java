@@ -1,6 +1,6 @@
 package leetCode.firstBadVersion;
 
-public class Solution {
+class Solution {
     public int firstBadVersion(int n) {
         int start = 1;
         int end = n;

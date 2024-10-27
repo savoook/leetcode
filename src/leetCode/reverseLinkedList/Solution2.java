@@ -4,7 +4,7 @@ import leetCode.elements.ListNode;
 
 //      1->3->2->5->null
 //null<-1<-3<-2<-5<-null
-public class Solution2 {
+class Solution2 {
     public ListNode reverseList(ListNode head) {
         ListNode newHead = null;
         while (head!=null){

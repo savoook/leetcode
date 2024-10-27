@@ -1,6 +1,6 @@
 package leetCode.quickSort;
 
-public class Solution {
+class Solution {
     public void sort(int[] array) {
         sort(array, 0, array.length-1);
     }

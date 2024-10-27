@@ -2,7 +2,7 @@ package leetCode.validAnagram;
 
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     public boolean isAnagram(String s, String t) {
         char[] str1 = s.toCharArray();
         char[] str2 = t.toCharArray();

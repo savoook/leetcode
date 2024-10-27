@@ -1,6 +1,6 @@
 package leetCode.uniquePaths;
 
-public class Solution {
+class Solution {
     int[][] array = new int[101][101];
 
     public int uniquePaths(int m, int n) {

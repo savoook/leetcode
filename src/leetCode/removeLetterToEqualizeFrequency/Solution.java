@@ -1,6 +1,6 @@
 package leetCode.removeLetterToEqualizeFrequency;
 
-public class Solution {
+class Solution {
     public boolean equalFrequency(String word) {
         int[] cnt = new int[26];
         for (char c : word.toCharArray())

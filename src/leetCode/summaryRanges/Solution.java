@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 //[0,2,3,4,6,8,9]
-public class Solution {
+class Solution {
     public List<String> summaryRanges(int[] nums) {
         if (nums.length == 0) return Collections.emptyList();
         List<String> result = new ArrayList<>();

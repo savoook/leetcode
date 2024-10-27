@@ -1,7 +1,7 @@
 package leetCode.reverseInt;
 
 //1234
-public class Solution {
+class Solution {
     public int reverse(int x) {
         int result = 0;
         while (x != 0) {

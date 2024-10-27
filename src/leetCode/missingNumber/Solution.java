@@ -2,7 +2,7 @@ package leetCode.missingNumber;
 
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);
         if (nums[0]!=0) return 0;

@@ -2,7 +2,7 @@ package leetCode.cinema;
 
 import java.util.*;
 
-public class Solution {
+class Solution {
 
     static <K, V extends Comparable<? super V>>
     SortedSet<Map.Entry<K, V>> entriesSortedByValues(Map<K, V> map) {

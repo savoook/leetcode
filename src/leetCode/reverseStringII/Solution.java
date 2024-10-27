@@ -2,7 +2,7 @@ package leetCode.reverseStringII;
 
 //Input: s = "abcdefg", k = 2
 //        Output: "bacdfeg"
-public class Solution {
+class Solution {
     public String reverseStr(String s, int k) {
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i += 2 * k) {

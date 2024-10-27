@@ -3,7 +3,7 @@ package leetCode.majorityElement;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+class Solution {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         int length = nums.length;

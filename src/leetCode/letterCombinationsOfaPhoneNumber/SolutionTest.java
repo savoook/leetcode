@@ -6,7 +6,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
 
     @Test
     public void letterCombinationsTest() {

@@ -1,4 +1,4 @@
 package leetCode.validAnagram;
 
-public class Solution2 {
+class Solution2 {
 }

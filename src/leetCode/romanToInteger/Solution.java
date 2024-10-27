@@ -6,7 +6,7 @@ import java.util.Map;
 //Output:1994
 //Explanation:M=1000,CM=900,XC=90 and IV=4.
 
-public class Solution {
+class Solution {
     public int romanToInt(String s) {
         int result = 0;
         Map<Character, Integer> map = new HashMap<>();

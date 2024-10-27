@@ -1,6 +1,6 @@
 package leetCode.searchInRotatedSortedArray;
 
-public class Solution {
+class Solution {
     public int search(int[] nums, int target) {
         int lo = 0;
         int hi = nums.length - 1;

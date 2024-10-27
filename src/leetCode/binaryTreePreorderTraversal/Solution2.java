@@ -5,7 +5,7 @@ import leetCode.elements.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution2 {
+class Solution2 {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         preorderTraversal(root, res);

@@ -2,7 +2,7 @@ package leetCode.removeDuplicatesFromSortedList;
 
 import leetCode.elements.ListNode;
 
-public class Solution {
+class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode current = head;
         while (current != null && current.next != null) {

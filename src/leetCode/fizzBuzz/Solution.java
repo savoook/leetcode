@@ -3,7 +3,7 @@ package leetCode.fizzBuzz;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> res = new ArrayList<>();
         for (int i = 1; i <= n; i++) {

@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
-public class SolutionTest {
+class SolutionTest {
     private final int[] nums1 = {4, 1, 2};
     private final int[] nums2 = {1, 3, 4, 2};
 

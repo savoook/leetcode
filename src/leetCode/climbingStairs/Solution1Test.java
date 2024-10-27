@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class Solution1Test {
+class Solution1Test {
 
     @BeforeClass
     public static void init() {

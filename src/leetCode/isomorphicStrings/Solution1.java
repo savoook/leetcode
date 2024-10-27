@@ -1,6 +1,6 @@
 package leetCode.isomorphicStrings;
 
-public class Solution1 {
+class Solution1 {
     public boolean isIsomorphic(String s, String t) {
         if (s.length() != t.length()) return false;
         int[] m = new int[512];

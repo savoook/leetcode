@@ -1,6 +1,6 @@
 package leetCode.longestSubstringWithoutRepeatingCharacters;
 
-public class Solution2 {
+class Solution2 {
     public int lengthOfLongestSubstring(String s) {
         int length = 0;
         int[] chars = new int[256];

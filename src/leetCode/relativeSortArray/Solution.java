@@ -3,7 +3,7 @@ package leetCode.relativeSortArray;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Solution {
+class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         Map<Integer, Integer> treeMap = new TreeMap<>();
         for (Integer i : arr1) treeMap.put(i, treeMap.getOrDefault(i, 0) + 1);

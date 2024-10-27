@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Solution1 {
+class Solution1 {
 
     public List<Integer> majorityElement(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();

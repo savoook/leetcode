@@ -3,7 +3,7 @@ package testTasks.array;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SolutionTest {
+class SolutionTest {
 
     @Test
     public void moveTest() {
@@ -11,7 +11,7 @@ public class SolutionTest {
         Solution solution = new Solution();
         solution.move(array, 8);
         Assert.assertArrayEquals(array, new int[]{1, 2, 3, 4, 5, 6, 7, 8});
-        solution.move(array, 18); //не описан случай m > длины, считаю что в таком случае массив не меняем
+        solution.move(array, 18); //пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ m > пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         Assert.assertArrayEquals(array, new int[]{1, 2, 3, 4, 5, 6, 7, 8});
         solution.move(array, 2);
         Assert.assertArrayEquals(array, new int[]{3, 4, 5, 6, 7, 8, 1, 2});

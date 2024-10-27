@@ -3,7 +3,7 @@ package leetCode.firstUniqueCharacterInAString;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+class Solution {
     public int firstUniqChar(String s) {
         if (s == null || s.length() == 0) return -1;
         Map<Character, Integer> map = new HashMap<>();

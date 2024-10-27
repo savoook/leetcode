@@ -1,6 +1,6 @@
 package leetCode.findMinimumInRotatedSortedArray;
 
-public class Solution {
+class Solution {
     public int findMin(int[] nums) {
         int lo = 0;
         int hi = nums.length - 1;

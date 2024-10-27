@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-public class Solution {
+class Solution {
     public boolean isValid(String s) {
         Map<Character, Character> map = new HashMap<>();
         map.put(')', '(');

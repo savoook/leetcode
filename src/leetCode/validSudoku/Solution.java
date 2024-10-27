@@ -1,6 +1,6 @@
 package leetCode.validSudoku;
 
-public class Solution {
+class Solution {
     public boolean isValidSudoku(char[][] board) {
         boolean[][] column = new boolean[9][9];
         boolean[][] row = new boolean[9][9];

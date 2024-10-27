@@ -2,7 +2,7 @@ package leetCode.mergeTwoSortedLists;
 
 import leetCode.elements.ListNode;
 
-public class Solution {
+class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode result = new ListNode(-1);
         ListNode temp = result;
